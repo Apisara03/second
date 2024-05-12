@@ -1,0 +1,99 @@
+[1.538s] Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake /home/orin_nano/demo/src/joy -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/joy
+[1.657s] -- The C compiler identification is GNU 9.4.0
+[1.766s] -- The CXX compiler identification is GNU 9.4.0
+[1.775s] -- Check for working C compiler: /usr/bin/cc
+[1.927s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.928s] -- Detecting C compiler ABI info
+[2.078s] -- Detecting C compiler ABI info - done
+[2.098s] -- Detecting C compile features
+[2.099s] -- Detecting C compile features - done
+[2.104s] -- Check for working CXX compiler: /usr/bin/c++
+[2.273s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.275s] -- Detecting CXX compiler ABI info
+[2.443s] -- Detecting CXX compiler ABI info - done
+[2.464s] -- Detecting CXX compile features
+[2.464s] -- Detecting CXX compile features - done
+[2.469s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.536s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.536s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.993s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.103s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.295s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.357s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.629s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.635s] -- Looking for pthread.h
+[3.792s] -- Looking for pthread.h - found
+[3.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.953s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.953s] -- Looking for pthread_create in pthreads
+[4.084s] -- Looking for pthread_create in pthreads - not found
+[4.085s] -- Looking for pthread_create in pthread
+[4.241s] -- Looking for pthread_create in pthread - found
+[4.242s] -- Found Threads: TRUE  
+[4.535s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[4.650s] -- Found sdl2_vendor: 3.0.1 (/opt/ros/foxy/share/sdl2_vendor/cmake)
+[4.656s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.881s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.046s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.047s] -- Configured cppcheck include dirs: /home/orin_nano/demo/src/joy/include
+[5.048s] -- Configured cppcheck exclude dirs and/or files: 
+[5.051s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.052s] -- Configured cpplint exclude dirs and/or files: 
+[5.052s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.053s] -- Added test 'lint_cmake' to check CMake code style
+[5.055s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.057s] -- Added test 'uncrustify' to check C / C++ code style
+[5.058s] -- Configured uncrustify additional arguments: 
+[5.059s] -- Added test 'xmllint' to check XML markup files
+[5.068s] -- Configuring done
+[5.094s] -- Generating done
+[5.098s] -- Build files have been written to: /home/orin_nano/demo/build/joy
+[7.533s] Invoked command in '/home/orin_nano/demo/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake /home/orin_nano/demo/src/joy -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/joy
+[7.537s] Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[8.753s] [35m[1mScanning dependencies of target joy_node[0m
+[8.754s] [35m[1mScanning dependencies of target joy[0m
+[8.754s] [35m[1mScanning dependencies of target joy_enumerate_devices[0m
+[8.754s] [ 16%] [32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o[0m
+[8.754s] [ 33%] [32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o[0m
+[8.755s] [ 50%] [32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o[0m
+[8.905s] [ 66%] [32m[1mLinking CXX executable joy_enumerate_devices[0m
+[9.171s] [ 66%] Built target joy_enumerate_devices
+[14.113s] [ 83%] [32m[1mLinking CXX executable joy_node[0m
+[14.381s] [ 83%] Built target joy_node
+[23.570s] [100%] [32m[1mLinking CXX shared library libjoy.so[0m
+[24.187s] [100%] Built target joy
+[24.733s] Invoked command in '/home/orin_nano/demo/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[24.807s] Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/joy
+[24.831s] -- Install configuration: ""
+[24.831s] -- Installing: /home/orin_nano/demo/install/joy/lib/libjoy.so
+[24.838s] -- Set runtime path of "/home/orin_nano/demo/install/joy/lib/libjoy.so" to ""
+[24.838s] -- Installing: /home/orin_nano/demo/install/joy/lib/joy/joy_node
+[24.839s] -- Set runtime path of "/home/orin_nano/demo/install/joy/lib/joy/joy_node" to ""
+[24.839s] -- Installing: /home/orin_nano/demo/install/joy/lib/joy/joy_enumerate_devices
+[24.840s] -- Installing: /home/orin_nano/demo/install/joy/include/joy
+[24.840s] -- Installing: /home/orin_nano/demo/install/joy/include/joy/joy.hpp
+[24.841s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/config
+[24.841s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/config/joy-params.yaml
+[24.841s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/launch
+[24.841s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/launch/joy-composed-launch.py
+[24.841s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/launch/joy-launch.py
+[24.842s] -- Installing: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[24.842s] -- Installing: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[24.843s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/environment/ament_prefix_path.sh
+[24.843s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/environment/ament_prefix_path.dsv
+[24.843s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/environment/path.sh
+[24.843s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/environment/path.dsv
+[24.844s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/local_setup.bash
+[24.844s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/local_setup.sh
+[24.844s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/local_setup.zsh
+[24.845s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/local_setup.dsv
+[24.846s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/package.dsv
+[24.846s] -- Installing: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/packages/joy
+[24.847s] -- Installing: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[24.847s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/cmake/joyConfig.cmake
+[24.847s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/cmake/joyConfig-version.cmake
+[24.847s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/package.xml
+[24.853s] Invoked command in '/home/orin_nano/demo/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/joy

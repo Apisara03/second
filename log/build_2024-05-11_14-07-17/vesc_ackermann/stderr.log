@@ -1,0 +1,8 @@
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:[m[K In member function ‘[01m[Kvoid vesc_ackermann::VescToOdom::updateCallback()[m[K’:
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:79:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_input_time_[m[K’ was not declared in this scope; did you mean ‘[01m[Klast_state_time_[m[K’?
+   79 |   auto elapsed_time = now() - [01;31m[Klast_input_time_[m[K;
+      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                               [32m[Klast_state_time_[m[K
+make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

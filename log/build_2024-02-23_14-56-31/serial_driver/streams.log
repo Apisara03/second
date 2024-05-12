@@ -1,0 +1,46 @@
+[0.597s] Invoking command in '/home/orin_nano/demo/build/serial_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/serial_driver -- -j6 -l6
+[0.742s] [ 13%] Built target gtest
+[0.748s] [ 33%] Built target serial_driver
+[0.754s] [ 46%] Built target serial_bridge
+[0.758s] [ 60%] Built target gtest_main
+[0.821s] [ 86%] Built target test_serial_port
+[0.822s] [ 86%] Built target serial_driver_nodes
+[0.824s] [100%] Built target test_serial_driver
+[1.122s] Invoked command in '/home/orin_nano/demo/build/serial_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/serial_driver -- -j6 -l6
+[1.706s] Invoking command in '/home/orin_nano/demo/build/serial_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/serial_driver
+[1.726s] -- Install configuration: ""
+[1.727s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/lib/serial_driver/serial_bridge
+[1.727s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/include
+[1.727s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/include/serial_driver
+[1.728s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/include/serial_driver/serial_driver.hpp
+[1.730s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/include/serial_driver/serial_port.hpp
+[1.731s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/include/serial_driver/visibility_control.hpp
+[1.731s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/include/serial_driver/serial_bridge_node.hpp
+[1.731s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/environment/library_path.sh
+[1.731s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/environment/library_path.dsv
+[1.731s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/lib/libserial_driver.so
+[1.732s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/lib/libserial_driver_nodes.so
+[1.732s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/launch
+[1.732s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/launch/serial_driver_bridge_node.launch.py
+[1.732s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/params
+[1.733s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/params/example.params.yaml
+[1.733s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/ament_index/resource_index/package_run_dependencies/serial_driver
+[1.733s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/ament_index/resource_index/parent_prefix_path/serial_driver
+[1.733s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/environment/ament_prefix_path.sh
+[1.733s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/environment/ament_prefix_path.dsv
+[1.734s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/environment/path.sh
+[1.734s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/environment/path.dsv
+[1.734s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/local_setup.bash
+[1.734s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/local_setup.sh
+[1.734s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/local_setup.zsh
+[1.734s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/local_setup.dsv
+[1.735s] -- Installing: /home/orin_nano/demo/install/serial_driver/share/serial_driver/package.dsv
+[1.736s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/ament_index/resource_index/packages/serial_driver
+[1.736s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/ament_index/resource_index/rclcpp_components/serial_driver
+[1.736s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.736s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.736s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.736s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/cmake/serial_driverConfig.cmake
+[1.737s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/cmake/serial_driverConfig-version.cmake
+[1.737s] -- Up-to-date: /home/orin_nano/demo/install/serial_driver/share/serial_driver/package.xml
+[2.134s] Invoked command in '/home/orin_nano/demo/build/serial_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/serial_driver

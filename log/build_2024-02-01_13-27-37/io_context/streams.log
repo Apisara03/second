@@ -1,0 +1,20 @@
+[1.102s] Invoking command in '/home/orin_nano/demo/build/io_context': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy /usr/bin/cmake /home/orin_nano/demo/transport_drivers/io_context -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/io_context
+[1.131s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.174s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.721s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.249s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.251s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.534s] CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+[2.536s]   Could NOT find ASIO (missing: ASIO_INCLUDE_DIRS)
+[2.537s] Call Stack (most recent call first):
+[2.537s]   /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+[2.538s]   /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules/FindASIO.cmake:19 (find_package_handle_standard_args)
+[2.539s]   CMakeLists.txt:34 (find_package)
+[2.540s] 
+[2.541s] 
+[2.542s] -- Configuring incomplete, errors occurred!
+[2.543s] See also "/home/orin_nano/demo/build/io_context/CMakeFiles/CMakeOutput.log".
+[2.544s] See also "/home/orin_nano/demo/build/io_context/CMakeFiles/CMakeError.log".
+[2.745s] Invoked command in '/home/orin_nano/demo/build/io_context' returned '1': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy /usr/bin/cmake /home/orin_nano/demo/transport_drivers/io_context -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/io_context

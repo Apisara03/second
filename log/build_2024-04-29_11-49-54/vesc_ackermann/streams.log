@@ -1,0 +1,160 @@
+[1.545s] Invoking command in '/home/orin_nano/demo/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_ackermann
+[1.657s] -- The C compiler identification is GNU 9.4.0
+[1.763s] -- The CXX compiler identification is GNU 9.4.0
+[1.773s] -- Check for working C compiler: /usr/bin/cc
+[1.916s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.918s] -- Detecting C compiler ABI info
+[2.066s] -- Detecting C compiler ABI info - done
+[2.084s] -- Detecting C compile features
+[2.085s] -- Detecting C compile features - done
+[2.090s] -- Check for working CXX compiler: /usr/bin/c++
+[2.250s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.252s] -- Detecting CXX compiler ABI info
+[2.414s] -- Detecting CXX compiler ABI info - done
+[2.438s] -- Detecting CXX compile features
+[2.438s] -- Detecting CXX compile features - done
+[2.441s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.497s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.498s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.164s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.344s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.403s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.996s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.000s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.001s] -- Looking for pthread.h
+[4.160s] -- Looking for pthread.h - found
+[4.160s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.317s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.317s] -- Looking for pthread_create in pthreads
+[4.442s] -- Looking for pthread_create in pthreads - not found
+[4.442s] -- Looking for pthread_create in pthread
+[4.587s] -- Looking for pthread_create in pthread - found
+[4.589s] -- Found Threads: TRUE  
+[5.663s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.712s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.714s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.715s] -- Configured cppcheck include dirs: /home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/include
+[5.716s] -- Configured cppcheck exclude dirs and/or files: 
+[5.717s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.718s] -- Configured cpplint exclude dirs and/or files: 
+[5.720s] -- Added test 'lint_cmake' to check CMake code style
+[5.723s] -- Added test 'uncrustify' to check C / C++ code style
+[5.724s] -- Configured uncrustify additional arguments: 
+[5.724s] -- Added test 'xmllint' to check XML markup files
+[5.737s] -- Configuring done
+[5.778s] -- Generating done
+[5.781s] -- Build files have been written to: /home/orin_nano/demo/build/vesc_ackermann
+[9.589s] Invoked command in '/home/orin_nano/demo/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_ackermann
+[9.595s] Invoking command in '/home/orin_nano/demo/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_ackermann -- -j6 -l6
+[9.690s] [35m[1mScanning dependencies of target vesc_to_odom_node[0m
+[9.691s] [35m[1mScanning dependencies of target ackermann_to_vesc_node[0m
+[9.691s] [35m[1mScanning dependencies of target vesc_ackermann[0m
+[9.764s] [ 14%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[9.770s] [ 28%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[9.780s] [ 42%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[9.787s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[12.952s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:13:7:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ has not been declared
+[12.952s]    13 | using [01;31m[Knav_msgs[m[K::msg::Odometry;
+[12.953s]       |       [01;31m[K^~~~~~~~[m[K
+[12.957s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:17:1:[m[K [01;31m[Kerror: [m[K‘[01m[KVescToOdom[m[K’ does not name a type
+[12.957s]    17 | [01;31m[KVescToOdom[m[K::VescToOdom(const rclcpp::NodeOptions & options)
+[12.958s]       | [01;31m[K^~~~~~~~~~[m[K
+[12.958s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:60:6:[m[K [01;31m[Kerror: [m[K‘[01m[KVescToOdom[m[K’ has not been declared
+[12.959s]    60 | void [01;31m[KVescToOdom[m[K::motorSpeedCallback(const Float64::SharedPtr msg)
+[12.959s]       |      [01;31m[K^~~~~~~~~~[m[K
+[12.972s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:[m[K In function ‘[01m[Kvoid vesc_ackermann::motorSpeedCallback(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.973s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:64:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_speed_[m[K’ was not declared in this scope
+[12.973s]    64 |   [01;31m[Kmotor_speed_[m[K = map(read_speed_, -10000.0, 10000.0, -3.0, 3.0);
+[12.973s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[12.974s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:[m[K At global scope:
+[12.974s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:67:6:[m[K [01;31m[Kerror: [m[K‘[01m[KVescToOdom[m[K’ has not been declared
+[12.974s]    67 | void [01;31m[KVescToOdom[m[K::servoAngleCallback(const Float64::SharedPtr msg)
+[12.975s]       |      [01;31m[K^~~~~~~~~~[m[K
+[12.981s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:[m[K In function ‘[01m[Kvoid vesc_ackermann::servoAngleCallback(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.981s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kservo_angle_[m[K’ was not declared in this scope; did you mean ‘[01m[Kread_angle_[m[K’?
+[12.982s]    71 |   [01;31m[Kservo_angle_[m[K =  map(read_angle_, 65.0, 67.0, -40.0/180.0*M_PI, 40.0/180.0*M_PI);
+[12.982s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[12.982s]       |   [32m[Kread_angle_[m[K
+[12.983s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:[m[K At global scope:
+[12.983s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:74:6:[m[K [01;31m[Kerror: [m[K‘[01m[KVescToOdom[m[K’ has not been declared
+[12.983s]    74 | void [01;31m[KVescToOdom[m[K::updateCallback()
+[12.984s]       |      [01;31m[K^~~~~~~~~~[m[K
+[12.990s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:[m[K In function ‘[01m[Kvoid vesc_ackermann::updateCallback()[m[K’:
+[12.990s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:79:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_speed_[m[K’ was not declared in this scope
+[12.990s]    79 |   double x_dot = [01;31m[Kmotor_speed_[m[K * cos(theta_);
+[12.990s]       |                  [01;31m[K^~~~~~~~~~~~[m[K
+[12.993s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:79:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_[m[K’ was not declared in this scope
+[12.993s]    79 |   double x_dot = motor_speed_ * cos([01;31m[Ktheta_[m[K);
+[12.993s]       |                                     [01;31m[K^~~~~~[m[K
+[12.996s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:81:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheelbase_[m[K’ was not declared in this scope
+[12.997s]    81 |   double theta_dot = motor_speed_ / [01;31m[Kwheelbase_[m[K * tan(servo_angle_);
+[12.997s]       |                                     [01;31m[K^~~~~~~~~~[m[K
+[13.001s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:81:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kservo_angle_[m[K’ was not declared in this scope
+[13.001s]    81 |   double theta_dot = motor_speed_ / wheelbase_ * tan([01;31m[Kservo_angle_[m[K);
+[13.001s]       |                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[13.004s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope
+[13.005s]    84 |   [01;31m[Kx_[m[K += x_dot * dt;
+[13.005s]       |   [01;31m[K^~[m[K
+[13.007s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:85:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[13.007s]    85 |   [01;31m[Ky_[m[K += y_dot * dt;
+[13.007s]       |   [01;31m[K^~[m[K
+[13.007s]       |   [32m[Kyn[m[K
+[13.009s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:88:3:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ was not declared in this scope
+[13.010s]    88 |   [01;31m[KOdometry[m[K odom;
+[13.010s]       |   [01;31m[K^~~~~~~~[m[K
+[13.013s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:89:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom[m[K’ was not declared in this scope
+[13.013s]    89 |   [01;31m[Kodom[m[K.header.frame_id = odom_frame_;
+[13.013s]       |   [01;31m[K^~~~[m[K
+[13.018s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:89:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_frame_[m[K’ was not declared in this scope
+[13.018s]    89 |   odom.header.frame_id = [01;31m[Kodom_frame_[m[K;
+[13.018s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[13.020s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:90:23:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ was not declared in this scope; did you mean ‘[01m[Kpow[m[K’?
+[13.021s]    90 |   odom.header.stamp = [01;31m[Know[m[K();
+[13.021s]       |                       [01;31m[K^~~[m[K
+[13.021s]       |                       [32m[Kpow[m[K
+[13.024s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:91:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_frame_[m[K’ was not declared in this scope; did you mean ‘[01m[Kbasename[m[K’?
+[13.024s]    91 |   odom.child_frame_id = [01;31m[Kbase_frame_[m[K;
+[13.024s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[13.024s]       |                         [32m[Kbasename[m[K
+[13.030s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:107:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_tf_[m[K’ was not declared in this scope
+[13.030s]   107 |   if ([01;31m[Kpublish_tf_[m[K) {
+[13.030s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[13.035s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:118:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_pub_[m[K’ was not declared in this scope
+[13.035s]   118 |       [01;31m[Ktf_pub_[m[K->sendTransform(tf);
+[13.036s]       |       [01;31m[K^~~~~~~[m[K
+[13.040s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:123:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_pub_[m[K’ was not declared in this scope
+[13.041s]   123 |     [01;31m[Kodom_pub_[m[K->publish(odom);
+[13.041s]       |     [01;31m[K^~~~~~~~~[m[K
+[13.075s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+[13.076s]                  from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+[13.076s]                  from [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:129[m[K:
+[13.076s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:[m[K At global scope:
+[13.076s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:131:49:[m[K [01;31m[Kerror: [m[K‘[01m[KVescToOdom[m[K’ is not a member of ‘[01m[Kvesc_ackermann[m[K’
+[13.076s]   131 | RCLCPP_COMPONENTS_REGISTER_NODE(vesc_ackermann::[01;31m[KVescToOdom[m[K)
+[13.076s]       |                                                 [01;31m[K^~~~~~~~~~[m[K
+[13.077s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:131:49:[m[K [01;31m[Kerror: [m[K‘[01m[KVescToOdom[m[K’ is not a member of ‘[01m[Kvesc_ackermann[m[K’
+[13.078s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:131:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.078s]   131 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(vesc_ackermann::VescToOdom)
+[13.078s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.931s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+[13.931s]                  from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+[13.931s]                  from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+[13.931s]                  from [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:129[m[K:
+[13.932s] /opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[13.932s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[13.932s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+[13.932s]   218 |     return [01;31m[Knew C[m[K;
+[13.932s]       |            [01;31m[K^~~~~[m[K
+[13.932s]       |            [01;31m[K|[m[K
+[13.932s]       |            [01;31m[Kint*[m[K
+[14.082s] make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o] Error 1
+[14.082s] make[2]: *** Waiting for unfinished jobs....
+[15.764s] [ 71%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[15.892s] [ 85%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[16.573s] [ 85%] Built target vesc_to_odom_node
+[16.701s] [ 85%] Built target ackermann_to_vesc_node
+[28.062s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+[28.063s] make: *** [Makefile:141: all] Error 2
+[28.073s] Invoked command in '/home/orin_nano/demo/build/vesc_ackermann' returned '2': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_ackermann -- -j6 -l6

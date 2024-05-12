@@ -1,0 +1,6 @@
+[0.320s] Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[0.432s] [ 33%] Built target joy_enumerate_devices
+[0.450s] [100%] Built target joy
+[0.450s] [100%] Built target joy_node
+[0.482s] Invoked command in '/home/orin_nano/demo/build/joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[1.393s] Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/joy

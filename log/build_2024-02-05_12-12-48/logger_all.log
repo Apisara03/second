@@ -1,0 +1,760 @@
+[4.285s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.285s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa5c482b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa5c482b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa579d2e0>)
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.471s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orin_nano/demo'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['ignore', 'ignore_ament_install']
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'ignore'
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'ignore_ament_install'
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['colcon_pkg']
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'colcon_pkg'
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['colcon_meta']
+[4.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'colcon_meta'
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['ros']
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'ros'
+[4.504s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy' with type 'ros.ament_cmake' and name 'joy'
+[4.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extensions ['ignore', 'ignore_ament_install']
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extension 'ignore'
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extension 'ignore_ament_install'
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extensions ['colcon_pkg']
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extension 'colcon_pkg'
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extensions ['colcon_meta']
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extension 'colcon_meta'
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extensions ['ros']
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extension 'ros'
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extensions ['cmake', 'python']
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extension 'cmake'
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extension 'python'
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extensions ['python_setup_py']
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy) by extension 'python_setup_py'
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc) by extensions ['ignore', 'ignore_ament_install']
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc) by extension 'ignore'
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc) by extension 'ignore_ament_install'
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc) by extensions ['colcon_pkg']
+[4.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc) by extension 'colcon_pkg'
+[4.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc) by extensions ['colcon_meta']
+[4.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc) by extension 'colcon_meta'
+[4.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc) by extensions ['ros']
+[4.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc) by extension 'ros'
+[4.508s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc_foxy/vesc' with type 'ros.ament_cmake' and name 'vesc'
+[4.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_ackermann) by extensions ['ignore', 'ignore_ament_install']
+[4.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_ackermann) by extension 'ignore'
+[4.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_ackermann) by extension 'ignore_ament_install'
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_ackermann) by extensions ['colcon_pkg']
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_ackermann) by extension 'colcon_pkg'
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_ackermann) by extensions ['colcon_meta']
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_ackermann) by extension 'colcon_meta'
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_ackermann) by extensions ['ros']
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_ackermann) by extension 'ros'
+[4.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc_foxy/vesc_ackermann' with type 'ros.ament_cmake' and name 'vesc_ackermann'
+[4.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_driver) by extensions ['ignore', 'ignore_ament_install']
+[4.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_driver) by extension 'ignore'
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_driver) by extension 'ignore_ament_install'
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_driver) by extensions ['colcon_pkg']
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_driver) by extension 'colcon_pkg'
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_driver) by extensions ['colcon_meta']
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_driver) by extension 'colcon_meta'
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_driver) by extensions ['ros']
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_driver) by extension 'ros'
+[4.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc_foxy/vesc_driver' with type 'ros.ament_cmake' and name 'vesc_driver'
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_msgs) by extension 'ignore'
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_msgs) by extension 'ignore_ament_install'
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_msgs) by extensions ['colcon_pkg']
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_msgs) by extension 'colcon_pkg'
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_msgs) by extensions ['colcon_meta']
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_msgs) by extension 'colcon_meta'
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_msgs) by extensions ['ros']
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_foxy/vesc_msgs) by extension 'ros'
+[4.517s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc_foxy/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extensions ['ignore', 'ignore_ament_install']
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extension 'ignore'
+[4.517s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extension 'ignore_ament_install'
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extensions ['colcon_pkg']
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extension 'colcon_pkg'
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extensions ['colcon_meta']
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extension 'colcon_meta'
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extensions ['ros']
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extension 'ros'
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extensions ['cmake', 'python']
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extension 'cmake'
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extension 'python'
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extensions ['python_setup_py']
+[4.518s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers) by extension 'python_setup_py'
+[4.519s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/asio_cmake_module) by extensions ['ignore', 'ignore_ament_install']
+[4.519s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/asio_cmake_module) by extension 'ignore'
+[4.519s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/asio_cmake_module) by extension 'ignore_ament_install'
+[4.519s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/asio_cmake_module) by extensions ['colcon_pkg']
+[4.519s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/asio_cmake_module) by extension 'colcon_pkg'
+[4.520s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/asio_cmake_module) by extensions ['colcon_meta']
+[4.520s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/asio_cmake_module) by extension 'colcon_meta'
+[4.520s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/asio_cmake_module) by extensions ['ros']
+[4.520s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/asio_cmake_module) by extension 'ros'
+[4.521s] DEBUG:colcon.colcon_core.package_identification:Package 'transport_drivers/asio_cmake_module' with type 'ros.ament_cmake' and name 'asio_cmake_module'
+[4.521s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/io_context) by extensions ['ignore', 'ignore_ament_install']
+[4.521s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/io_context) by extension 'ignore'
+[4.521s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/io_context) by extension 'ignore_ament_install'
+[4.521s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/io_context) by extensions ['colcon_pkg']
+[4.521s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/io_context) by extension 'colcon_pkg'
+[4.522s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/io_context) by extensions ['colcon_meta']
+[4.522s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/io_context) by extension 'colcon_meta'
+[4.522s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/io_context) by extensions ['ros']
+[4.522s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/io_context) by extension 'ros'
+[4.523s] DEBUG:colcon.colcon_core.package_identification:Package 'transport_drivers/io_context' with type 'ros.ament_cmake' and name 'io_context'
+[4.523s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[4.524s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/serial_driver) by extension 'ignore'
+[4.524s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/serial_driver) by extension 'ignore_ament_install'
+[4.524s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/serial_driver) by extensions ['colcon_pkg']
+[4.524s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/serial_driver) by extension 'colcon_pkg'
+[4.524s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/serial_driver) by extensions ['colcon_meta']
+[4.524s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/serial_driver) by extension 'colcon_meta'
+[4.524s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/serial_driver) by extensions ['ros']
+[4.524s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/serial_driver) by extension 'ros'
+[4.526s] DEBUG:colcon.colcon_core.package_identification:Package 'transport_drivers/serial_driver' with type 'ros.ament_cmake' and name 'serial_driver'
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/udp_driver) by extensions ['ignore', 'ignore_ament_install']
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/udp_driver) by extension 'ignore'
+[4.526s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/udp_driver) by extension 'ignore_ament_install'
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/udp_driver) by extensions ['colcon_pkg']
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/udp_driver) by extension 'colcon_pkg'
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/udp_driver) by extensions ['colcon_meta']
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/udp_driver) by extension 'colcon_meta'
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/udp_driver) by extensions ['ros']
+[4.527s] Level 1:colcon.colcon_core.package_identification:_identify(transport_drivers/udp_driver) by extension 'ros'
+[4.531s] DEBUG:colcon.colcon_core.package_identification:Package 'transport_drivers/udp_driver' with type 'ros.ament_cmake' and name 'udp_driver'
+[4.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.095s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/orin_nano/demo/install
+[5.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 260 installed packages in /opt/ros/foxy
+[5.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.389s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joy' is in: /home/orin_nano/demo/install/joy, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy
+
+This may be promoted to an error in a future release of colcon-override-check.
+[5.463s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_args' from command line to 'None'
+[5.463s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_target' from command line to 'None'
+[5.463s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.463s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_clean_cache' from command line to 'False'
+[5.463s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_clean_first' from command line to 'False'
+[5.463s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_force_configure' from command line to 'False'
+[5.463s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'ament_cmake_args' from command line to 'None'
+[5.463s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'catkin_cmake_args' from command line to 'None'
+[5.463s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.463s] DEBUG:colcon.colcon_core.verb:Building package 'asio_cmake_module' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/demo/build/asio_cmake_module', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/demo/install/asio_cmake_module', 'merge_install': False, 'path': '/home/orin_nano/demo/transport_drivers/asio_cmake_module', 'symlink_install': False, 'test_result_base': None}
+[5.538s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[5.538s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[5.539s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.539s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[5.539s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[5.539s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[5.539s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[5.539s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[5.539s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.539s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/demo/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/demo/install/joy', 'merge_install': False, 'path': '/home/orin_nano/demo/src/joy', 'symlink_install': False, 'test_result_base': None}
+[5.614s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_args' from command line to 'None'
+[5.614s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target' from command line to 'None'
+[5.614s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.614s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.614s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.614s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.614s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.614s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.614s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.614s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/demo/build/vesc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/demo/install/vesc_msgs', 'merge_install': False, 'path': '/home/orin_nano/demo/src/vesc_foxy/vesc_msgs', 'symlink_install': False, 'test_result_base': None}
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_args' from command line to 'None'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_target' from command line to 'None'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_clean_cache' from command line to 'False'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_clean_first' from command line to 'False'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_force_configure' from command line to 'False'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'ament_cmake_args' from command line to 'None'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'catkin_cmake_args' from command line to 'None'
+[5.688s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.689s] DEBUG:colcon.colcon_core.verb:Building package 'io_context' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/demo/build/io_context', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/demo/install/io_context', 'merge_install': False, 'path': '/home/orin_nano/demo/transport_drivers/io_context', 'symlink_install': False, 'test_result_base': None}
+[5.794s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_args' from command line to 'None'
+[5.795s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target' from command line to 'None'
+[5.795s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.795s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_cache' from command line to 'False'
+[5.795s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_first' from command line to 'False'
+[5.795s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_force_configure' from command line to 'False'
+[5.795s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'ament_cmake_args' from command line to 'None'
+[5.795s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_cmake_args' from command line to 'None'
+[5.795s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.795s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_ackermann' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/demo/build/vesc_ackermann', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/demo/install/vesc_ackermann', 'merge_install': False, 'path': '/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann', 'symlink_install': False, 'test_result_base': None}
+[5.867s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_args' from command line to 'None'
+[5.867s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target' from command line to 'None'
+[5.867s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.867s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[5.867s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[5.867s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[5.867s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[5.867s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[5.868s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.868s] DEBUG:colcon.colcon_core.verb:Building package 'serial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/demo/build/serial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/demo/install/serial_driver', 'merge_install': False, 'path': '/home/orin_nano/demo/transport_drivers/serial_driver', 'symlink_install': False, 'test_result_base': None}
+[5.939s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_args' from command line to 'None'
+[5.939s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_target' from command line to 'None'
+[5.939s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.939s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[5.939s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_clean_first' from command line to 'False'
+[5.939s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_force_configure' from command line to 'False'
+[5.939s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'ament_cmake_args' from command line to 'None'
+[5.939s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[5.940s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.940s] DEBUG:colcon.colcon_core.verb:Building package 'udp_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/demo/build/udp_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/demo/install/udp_driver', 'merge_install': False, 'path': '/home/orin_nano/demo/transport_drivers/udp_driver', 'symlink_install': False, 'test_result_base': None}
+[6.011s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_args' from command line to 'None'
+[6.011s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target' from command line to 'None'
+[6.011s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.011s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[6.011s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_first' from command line to 'False'
+[6.011s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_force_configure' from command line to 'False'
+[6.011s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'ament_cmake_args' from command line to 'None'
+[6.011s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[6.011s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.011s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/demo/build/vesc_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/demo/install/vesc_driver', 'merge_install': False, 'path': '/home/orin_nano/demo/src/vesc_foxy/vesc_driver', 'symlink_install': False, 'test_result_base': None}
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_args' from command line to 'None'
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target' from command line to 'None'
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_cache' from command line to 'False'
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_first' from command line to 'False'
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_force_configure' from command line to 'False'
+[6.085s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'ament_cmake_args' from command line to 'None'
+[6.086s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_cmake_args' from command line to 'None'
+[6.086s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.086s] DEBUG:colcon.colcon_core.verb:Building package 'vesc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orin_nano/demo/build/vesc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orin_nano/demo/install/vesc', 'merge_install': False, 'path': '/home/orin_nano/demo/src/vesc_foxy/vesc', 'symlink_install': False, 'test_result_base': None}
+[6.163s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/demo/transport_drivers/asio_cmake_module' with build type 'ament_cmake'
+[6.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/demo/transport_drivers/asio_cmake_module'
+[6.314s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.582s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/demo/src/vesc_foxy/vesc_msgs' with build type 'ament_cmake'
+[6.583s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/demo/src/vesc_foxy/vesc_msgs'
+[6.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.901s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/demo/src/joy' with build type 'ament_cmake'
+[6.902s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/demo/src/joy'
+[6.980s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.980s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/asio_cmake_module -- -j6 -l6
+[7.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_msgs -- -j6 -l6
+[7.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[7.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/asio_cmake_module -- -j6 -l6
+[7.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/asio_cmake_module
+[7.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[7.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asio_cmake_module)
+[7.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/asio_cmake_module
+[7.564s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module' for CMake module files
+[7.566s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module' for CMake config files
+[7.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('asio_cmake_module', 'cmake_prefix_path')
+[7.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.ps1'
+[7.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.dsv'
+[7.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.sh'
+[7.649s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module/bin'
+[7.650s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module/lib/pkgconfig/asio_cmake_module.pc'
+[7.650s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module/lib/python3.8/site-packages'
+[7.651s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module/bin'
+[7.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.ps1'
+[7.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.dsv'
+[7.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.sh'
+[7.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.bash'
+[7.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.zsh'
+[7.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/asio_cmake_module/share/colcon-core/packages/asio_cmake_module)
+[7.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/joy
+[7.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_msgs -- -j6 -l6
+[7.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[7.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/joy
+[7.866s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy' for CMake module files
+[7.867s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy' for CMake config files
+[7.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[7.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[7.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[7.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[7.949s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/lib'
+[7.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[8.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[8.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[8.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[8.033s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/bin'
+[8.033s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/lib/pkgconfig/joy.pc'
+[8.033s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/lib/python3.8/site-packages'
+[8.034s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/bin'
+[8.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/joy/share/joy/package.ps1'
+[8.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/joy/share/joy/package.dsv'
+[8.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/joy/share/joy/package.sh'
+[8.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/joy/share/joy/package.bash'
+[8.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/joy/share/joy/package.zsh'
+[8.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/joy/share/colcon-core/packages/joy)
+[8.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asio_cmake_module)
+[8.274s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module' for CMake module files
+[8.275s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module' for CMake config files
+[8.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('asio_cmake_module', 'cmake_prefix_path')
+[8.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.ps1'
+[8.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.dsv'
+[8.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.sh'
+[8.354s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module/bin'
+[8.354s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module/lib/pkgconfig/asio_cmake_module.pc'
+[8.354s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module/lib/python3.8/site-packages'
+[8.355s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/asio_cmake_module/bin'
+[8.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.ps1'
+[8.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.dsv'
+[8.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.sh'
+[8.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.bash'
+[8.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.zsh'
+[8.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/asio_cmake_module/share/colcon-core/packages/asio_cmake_module)
+[8.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_msgs
+[8.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/demo/transport_drivers/io_context' with build type 'ament_cmake'
+[8.481s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/demo/transport_drivers/io_context'
+[8.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[8.980s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy' for CMake module files
+[8.981s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy' for CMake config files
+[8.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[9.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[9.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[9.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[9.062s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/lib'
+[9.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[9.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[9.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[9.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[9.146s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/bin'
+[9.146s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/lib/pkgconfig/joy.pc'
+[9.147s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/lib/python3.8/site-packages'
+[9.147s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/joy/bin'
+[9.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/joy/share/joy/package.ps1'
+[9.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/joy/share/joy/package.dsv'
+[9.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/joy/share/joy/package.sh'
+[9.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/joy/share/joy/package.bash'
+[9.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/joy/share/joy/package.zsh'
+[9.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/joy/share/colcon-core/packages/joy)
+[9.234s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[9.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_msgs
+[9.310s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs' for CMake module files
+[9.312s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs' for CMake config files
+[9.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[9.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[9.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[9.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[9.390s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/lib'
+[9.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[9.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[9.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[9.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[9.466s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/bin'
+[9.466s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[9.467s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages'
+[9.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'pythonpath')
+[9.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.ps1'
+[9.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.dsv'
+[9.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.sh'
+[9.543s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/bin'
+[9.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[9.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[9.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.sh'
+[9.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.bash'
+[9.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[9.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[9.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/io_context': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake /home/orin_nano/demo/transport_drivers/io_context -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/io_context
+[9.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[9.952s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs' for CMake module files
+[9.954s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs' for CMake config files
+[9.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[10.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[10.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[10.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[10.032s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/lib'
+[10.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[10.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[10.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[10.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[10.109s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/bin'
+[10.109s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[10.110s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages'
+[10.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'pythonpath')
+[10.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.ps1'
+[10.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.dsv'
+[10.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.sh'
+[10.188s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_msgs/bin'
+[10.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[10.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[10.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.sh'
+[10.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.bash'
+[10.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[10.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[10.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann' with build type 'ament_cmake'
+[10.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann'
+[10.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_ackermann
+[11.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake /home/orin_nano/demo/transport_drivers/io_context -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/io_context
+[11.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/io_context': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/io_context -- -j6 -l6
+[15.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_ackermann
+[15.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_ackermann -- -j6 -l6
+[23.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/io_context -- -j6 -l6
+[23.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/io_context': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/io_context
+[23.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(io_context)
+[23.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/io_context
+[23.550s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context' for CMake module files
+[23.551s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context' for CMake config files
+[23.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'cmake_prefix_path')
+[23.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/io_context/share/io_context/hook/cmake_prefix_path.ps1'
+[23.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/io_context/share/io_context/hook/cmake_prefix_path.dsv'
+[23.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/io_context/share/io_context/hook/cmake_prefix_path.sh'
+[23.637s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/lib'
+[23.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'ld_library_path_lib')
+[23.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/io_context/share/io_context/hook/ld_library_path_lib.ps1'
+[23.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/io_context/share/io_context/hook/ld_library_path_lib.dsv'
+[23.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/io_context/share/io_context/hook/ld_library_path_lib.sh'
+[23.720s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/bin'
+[23.721s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/lib/pkgconfig/io_context.pc'
+[23.721s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/lib/python3.8/site-packages'
+[23.722s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/bin'
+[23.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/io_context/share/io_context/package.ps1'
+[23.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/io_context/share/io_context/package.dsv'
+[23.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/io_context/share/io_context/package.sh'
+[23.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/io_context/share/io_context/package.bash'
+[23.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/io_context/share/io_context/package.zsh'
+[23.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/io_context/share/colcon-core/packages/io_context)
+[23.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(io_context)
+[24.033s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context' for CMake module files
+[24.034s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context' for CMake config files
+[24.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'cmake_prefix_path')
+[24.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/io_context/share/io_context/hook/cmake_prefix_path.ps1'
+[24.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/io_context/share/io_context/hook/cmake_prefix_path.dsv'
+[24.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/io_context/share/io_context/hook/cmake_prefix_path.sh'
+[24.116s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/lib'
+[24.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'ld_library_path_lib')
+[24.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/io_context/share/io_context/hook/ld_library_path_lib.ps1'
+[24.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/io_context/share/io_context/hook/ld_library_path_lib.dsv'
+[24.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/io_context/share/io_context/hook/ld_library_path_lib.sh'
+[24.198s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/bin'
+[24.198s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/lib/pkgconfig/io_context.pc'
+[24.199s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/lib/python3.8/site-packages'
+[24.199s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/io_context/bin'
+[24.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/io_context/share/io_context/package.ps1'
+[24.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/io_context/share/io_context/package.dsv'
+[24.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/io_context/share/io_context/package.sh'
+[24.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/io_context/share/io_context/package.bash'
+[24.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/io_context/share/io_context/package.zsh'
+[24.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/io_context/share/colcon-core/packages/io_context)
+[24.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/demo/transport_drivers/serial_driver' with build type 'ament_cmake'
+[24.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/demo/transport_drivers/serial_driver'
+[24.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.645s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/demo/transport_drivers/udp_driver' with build type 'ament_cmake'
+[24.646s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/demo/transport_drivers/udp_driver'
+[24.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/serial_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/transport_drivers/serial_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/serial_driver
+[24.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/udp_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/udp_driver
+[29.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/serial_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/transport_drivers/serial_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/serial_driver
+[29.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/serial_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/serial_driver -- -j6 -l6
+[29.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/udp_driver
+[29.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/udp_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/udp_driver -- -j6 -l6
+[32.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_ackermann -- -j6 -l6
+[32.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_ackermann
+[33.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[33.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_ackermann
+[33.208s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann' for CMake module files
+[33.209s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann' for CMake config files
+[33.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[33.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[33.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[33.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[33.409s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/lib'
+[33.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[33.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[33.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[33.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[33.598s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/bin'
+[33.598s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[33.598s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/lib/python3.8/site-packages'
+[33.603s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/bin'
+[33.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[33.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[33.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[33.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[33.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[33.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[34.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[34.453s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann' for CMake module files
+[34.454s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann' for CMake config files
+[34.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[34.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[34.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[34.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[34.541s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/lib'
+[34.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[34.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[34.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[34.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[34.625s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/bin'
+[34.625s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[34.626s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/lib/python3.8/site-packages'
+[34.626s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_ackermann/bin'
+[34.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[34.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[34.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[34.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[34.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[34.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[52.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/serial_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/serial_driver -- -j6 -l6
+[53.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/serial_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/serial_driver
+[53.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_driver)
+[53.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/serial_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/serial_driver
+[53.443s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver' for CMake module files
+[53.456s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver' for CMake config files
+[53.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'cmake_prefix_path')
+[53.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.ps1'
+[53.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.dsv'
+[53.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.sh'
+[53.637s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/lib'
+[53.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'ld_library_path_lib')
+[53.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.ps1'
+[53.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.dsv'
+[53.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.sh'
+[53.774s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/bin'
+[53.775s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/lib/pkgconfig/serial_driver.pc'
+[53.775s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/lib/python3.8/site-packages'
+[53.776s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/bin'
+[53.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.ps1'
+[53.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.dsv'
+[53.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.sh'
+[53.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.bash'
+[53.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.zsh'
+[53.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/serial_driver/share/colcon-core/packages/serial_driver)
+[54.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_driver)
+[54.319s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver' for CMake module files
+[54.320s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver' for CMake config files
+[54.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'cmake_prefix_path')
+[54.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.ps1'
+[54.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.dsv'
+[54.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.sh'
+[54.442s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/lib'
+[54.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'ld_library_path_lib')
+[54.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.ps1'
+[54.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.dsv'
+[54.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.sh'
+[54.568s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/bin'
+[54.568s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/lib/pkgconfig/serial_driver.pc'
+[54.569s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/lib/python3.8/site-packages'
+[54.569s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/serial_driver/bin'
+[54.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.ps1'
+[54.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.dsv'
+[54.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.sh'
+[54.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.bash'
+[54.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/serial_driver/share/serial_driver/package.zsh'
+[54.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/serial_driver/share/colcon-core/packages/serial_driver)
+[54.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/demo/src/vesc_foxy/vesc_driver' with build type 'ament_cmake'
+[54.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/demo/src/vesc_foxy/vesc_driver'
+[54.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_driver
+[60.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_driver
+[60.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_driver -- -j6 -l6
+[70.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/udp_driver -- -j6 -l6
+[70.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/udp_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/udp_driver
+[70.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_driver)
+[70.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/udp_driver
+[70.896s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver' for CMake module files
+[70.898s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver' for CMake config files
+[70.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'cmake_prefix_path')
+[70.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.ps1'
+[70.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.dsv'
+[70.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.sh'
+[70.976s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/lib'
+[70.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'ld_library_path_lib')
+[71.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.ps1'
+[71.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.dsv'
+[71.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.sh'
+[71.055s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/bin'
+[71.055s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/lib/pkgconfig/udp_driver.pc'
+[71.056s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/lib/python3.8/site-packages'
+[71.056s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/bin'
+[71.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.ps1'
+[71.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.dsv'
+[71.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.sh'
+[71.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.bash'
+[71.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.zsh'
+[71.135s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/udp_driver/share/colcon-core/packages/udp_driver)
+[71.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_driver)
+[71.392s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver' for CMake module files
+[71.393s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver' for CMake config files
+[71.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'cmake_prefix_path')
+[71.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.ps1'
+[71.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.dsv'
+[71.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.sh'
+[71.476s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/lib'
+[71.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'ld_library_path_lib')
+[71.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.ps1'
+[71.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.dsv'
+[71.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.sh'
+[71.557s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/bin'
+[71.557s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/lib/pkgconfig/udp_driver.pc'
+[71.557s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/lib/python3.8/site-packages'
+[71.558s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/udp_driver/bin'
+[71.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.ps1'
+[71.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.dsv'
+[71.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.sh'
+[71.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.bash'
+[71.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/udp_driver/share/udp_driver/package.zsh'
+[71.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/udp_driver/share/colcon-core/packages/udp_driver)
+[81.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_driver -- -j6 -l6
+[82.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_driver
+[82.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[82.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_driver
+[82.171s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver' for CMake module files
+[82.172s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver' for CMake config files
+[82.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[82.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[82.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[82.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[82.255s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/lib'
+[82.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[82.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[82.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[82.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[82.335s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/bin'
+[82.335s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[82.336s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/lib/python3.8/site-packages'
+[82.336s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/bin'
+[82.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.ps1'
+[82.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.dsv'
+[82.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.sh'
+[82.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.bash'
+[82.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.zsh'
+[82.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[82.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[82.661s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver' for CMake module files
+[82.663s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver' for CMake config files
+[82.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[82.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[82.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[82.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[82.750s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/lib'
+[82.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[82.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[82.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[82.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[82.832s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/bin'
+[82.832s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[82.832s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/lib/python3.8/site-packages'
+[82.833s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc_driver/bin'
+[82.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.ps1'
+[82.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.dsv'
+[82.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.sh'
+[82.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.bash'
+[82.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.zsh'
+[82.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[82.920s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orin_nano/demo/src/vesc_foxy/vesc' with build type 'ament_cmake'
+[82.921s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orin_nano/demo/src/vesc_foxy/vesc'
+[83.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[83.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[83.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc -- -j6 -l6
+[83.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc -- -j6 -l6
+[83.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orin_nano/demo/build/vesc': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/vesc
+[83.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[83.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orin_nano/demo/build/vesc' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/io_context:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/joy:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/vesc
+[83.571s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc' for CMake module files
+[83.572s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc' for CMake config files
+[83.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[83.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[83.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[83.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[83.655s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc/bin'
+[83.655s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc/lib/pkgconfig/vesc.pc'
+[83.656s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc/lib/python3.8/site-packages'
+[83.656s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc/bin'
+[83.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc/share/vesc/package.ps1'
+[83.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/vesc/share/vesc/package.dsv'
+[83.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc/share/vesc/package.sh'
+[83.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc/share/vesc/package.bash'
+[83.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc/share/vesc/package.zsh'
+[83.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/vesc/share/colcon-core/packages/vesc)
+[83.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[83.945s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc' for CMake module files
+[83.946s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc' for CMake config files
+[83.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[84.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[84.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orin_nano/demo/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[84.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orin_nano/demo/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[84.024s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc/bin'
+[84.024s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc/lib/pkgconfig/vesc.pc'
+[84.024s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc/lib/python3.8/site-packages'
+[84.025s] Level 1:colcon.colcon_core.environment:checking '/home/orin_nano/demo/install/vesc/bin'
+[84.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc/share/vesc/package.ps1'
+[84.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orin_nano/demo/install/vesc/share/vesc/package.dsv'
+[84.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc/share/vesc/package.sh'
+[84.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc/share/vesc/package.bash'
+[84.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/orin_nano/demo/install/vesc/share/vesc/package.zsh'
+[84.106s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orin_nano/demo/install/vesc/share/colcon-core/packages/vesc)
+[84.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[84.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[84.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[84.108s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[84.205s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[84.205s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[84.205s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[84.246s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[84.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin_nano/demo/install/local_setup.ps1'
+[84.364s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin_nano/demo/install/_local_setup_util_ps1.py'
+[84.366s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin_nano/demo/install/setup.ps1'
+[84.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin_nano/demo/install/local_setup.sh'
+[84.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orin_nano/demo/install/_local_setup_util_sh.py'
+[84.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin_nano/demo/install/setup.sh'
+[84.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin_nano/demo/install/local_setup.bash'
+[84.523s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin_nano/demo/install/setup.bash'
+[84.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orin_nano/demo/install/local_setup.zsh'
+[84.600s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orin_nano/demo/install/setup.zsh'

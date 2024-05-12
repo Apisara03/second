@@ -1,0 +1,54 @@
+[1.548s] Invoking command in '/home/orin_nano/demo/build/udp_driver': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/udp_driver -- -j6 -l6
+[1.719s] [  8%] Built target gtest
+[1.735s] [ 16%] Built target gtest_main
+[1.738s] [ 25%] Built target udp_receiver_node_exe
+[1.740s] [ 37%] Built target udp_sender_node_exe
+[1.741s] [ 45%] Built target udp_driver
+[1.829s] [ 58%] Built target udp_driver_nodes
+[1.916s] [ 66%] Built target test_udp_socket
+[1.926s] [ 75%] Built target udp_bridge_node_exe
+[1.940s] [ 91%] Built target test_udp_data
+[1.940s] [ 91%] Built target test_udp_driver
+[1.946s] [100%] Built target test_udp_driver_nodes
+[1.974s] Invoked command in '/home/orin_nano/demo/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/udp_driver -- -j6 -l6
+[3.079s] Invoking command in '/home/orin_nano/demo/build/udp_driver': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/udp_driver
+[3.106s] -- Install configuration: ""
+[3.106s] -- Installing: /home/orin_nano/demo/install/udp_driver/lib/udp_driver/udp_receiver_node_exe
+[3.107s] -- Set runtime path of "/home/orin_nano/demo/install/udp_driver/lib/udp_driver/udp_receiver_node_exe" to ""
+[3.108s] -- Installing: /home/orin_nano/demo/install/udp_driver/lib/udp_driver/udp_sender_node_exe
+[3.109s] -- Set runtime path of "/home/orin_nano/demo/install/udp_driver/lib/udp_driver/udp_sender_node_exe" to ""
+[3.109s] -- Installing: /home/orin_nano/demo/install/udp_driver/include
+[3.109s] -- Installing: /home/orin_nano/demo/install/udp_driver/include/udp_driver
+[3.110s] -- Installing: /home/orin_nano/demo/install/udp_driver/include/udp_driver/udp_receiver_node.hpp
+[3.110s] -- Installing: /home/orin_nano/demo/install/udp_driver/include/udp_driver/udp_sender_node.hpp
+[3.110s] -- Installing: /home/orin_nano/demo/install/udp_driver/include/udp_driver/udp_socket.hpp
+[3.110s] -- Installing: /home/orin_nano/demo/install/udp_driver/include/udp_driver/visibility_control.hpp
+[3.110s] -- Installing: /home/orin_nano/demo/install/udp_driver/include/udp_driver/udp_driver.hpp
+[3.110s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/library_path.sh
+[3.111s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/library_path.dsv
+[3.111s] -- Installing: /home/orin_nano/demo/install/udp_driver/lib/libudp_driver.so
+[3.112s] -- Set runtime path of "/home/orin_nano/demo/install/udp_driver/lib/libudp_driver.so" to ""
+[3.113s] -- Installing: /home/orin_nano/demo/install/udp_driver/lib/libudp_driver_nodes.so
+[3.120s] -- Set runtime path of "/home/orin_nano/demo/install/udp_driver/lib/libudp_driver_nodes.so" to ""
+[3.120s] -- Installing: /home/orin_nano/demo/install/udp_driver/lib/udp_driver/udp_bridge_node_exe
+[3.121s] -- Set runtime path of "/home/orin_nano/demo/install/udp_driver/lib/udp_driver/udp_bridge_node_exe" to ""
+[3.121s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/ament_index/resource_index/package_run_dependencies/udp_driver
+[3.121s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/ament_index/resource_index/parent_prefix_path/udp_driver
+[3.122s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/ament_prefix_path.sh
+[3.123s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/ament_prefix_path.dsv
+[3.123s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/path.sh
+[3.123s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/path.dsv
+[3.123s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/local_setup.bash
+[3.124s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/local_setup.sh
+[3.124s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/local_setup.zsh
+[3.124s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/local_setup.dsv
+[3.125s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/package.dsv
+[3.125s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/ament_index/resource_index/packages/udp_driver
+[3.125s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/ament_index/resource_index/rclcpp_components/udp_driver
+[3.126s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.126s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.126s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.126s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/udp_driverConfig.cmake
+[3.127s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/udp_driverConfig-version.cmake
+[3.127s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/package.xml
+[3.133s] Invoked command in '/home/orin_nano/demo/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/udp_driver

@@ -1,0 +1,24 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[ 42%] Built target ackermann_to_vesc_node
+[ 71%] Built target vesc_to_odom_node
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:[m[K In member function ‘[01m[Kvoid vesc_ackermann::VescToOdom::servoAngleCallback(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:70:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_input_time_[m[K’ was not declared in this scope; did you mean ‘[01m[Klast_state_time_[m[K’?
+   70 |   auto elapsed_time = now() - [01;31m[Klast_input_time_[m[K;
+      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                               [32m[Klast_state_time_[m[K
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:77:32:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+   77 | void VescToOdom::updateCallback[01;31m[K([m[K)
+      |                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:132[m[K:
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:[m[K At global scope:
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:134:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  134 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(vesc_ackermann::VescToOdom)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/vesc_to_odom.cpp:10:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   10 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

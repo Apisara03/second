@@ -1,0 +1,34 @@
+[1.557s] Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[1.731s] [ 33%] Built target joy_enumerate_devices
+[1.743s] [ 66%] Built target joy
+[1.746s] [100%] Built target joy_node
+[3.320s] Invoked command in '/home/orin_nano/demo/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[6.869s] Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/joy
+[6.895s] -- Install configuration: ""
+[6.895s] -- Up-to-date: /home/orin_nano/demo/install/joy/lib/libjoy.so
+[6.896s] -- Up-to-date: /home/orin_nano/demo/install/joy/lib/joy/joy_node
+[6.898s] -- Up-to-date: /home/orin_nano/demo/install/joy/lib/joy/joy_enumerate_devices
+[6.898s] -- Up-to-date: /home/orin_nano/demo/install/joy/include/joy
+[6.898s] -- Up-to-date: /home/orin_nano/demo/install/joy/include/joy/joy.hpp
+[6.899s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/config
+[6.899s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/config/joy-params.yaml
+[6.899s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/launch
+[6.899s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/launch/joy-composed-launch.py
+[6.899s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/launch/joy-launch.py
+[6.899s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[6.900s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[6.900s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/environment/ament_prefix_path.sh
+[6.900s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/environment/ament_prefix_path.dsv
+[6.900s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/environment/path.sh
+[6.900s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/environment/path.dsv
+[6.900s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/local_setup.bash
+[6.900s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/local_setup.sh
+[6.901s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/local_setup.zsh
+[6.901s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/local_setup.dsv
+[6.901s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/package.dsv
+[6.902s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/packages/joy
+[6.903s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[6.904s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/cmake/joyConfig.cmake
+[6.906s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/cmake/joyConfig-version.cmake
+[6.906s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/package.xml
+[6.917s] Invoked command in '/home/orin_nano/demo/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/joy

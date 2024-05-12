@@ -1,0 +1,7 @@
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_driver/src/vesc_driver.cpp:[m[K In member function ‘[01m[Kvoid vesc_driver::VescDriver::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_driver/src/vesc_driver.cpp:372:35:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+  372 |       double motor_speed = -10000,[01;31m[K10000[m[K;
+      |                                   [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/vesc_driver.dir/build.make:63: CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

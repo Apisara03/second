@@ -1,0 +1,37 @@
+[1.569s] Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[1.701s] [35m[1mScanning dependencies of target joy[0m
+[1.739s] [ 33%] Built target joy_enumerate_devices
+[1.747s] [ 66%] Built target joy_node
+[1.797s] [ 83%] [32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o[0m
+[15.706s] [100%] [32m[1mLinking CXX shared library libjoy.so[0m
+[16.290s] [100%] Built target joy
+[17.712s] Invoked command in '/home/orin_nano/demo/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/joy -- -j6 -l6
+[17.794s] Invoking command in '/home/orin_nano/demo/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/joy
+[17.826s] -- Install configuration: ""
+[17.826s] -- Installing: /home/orin_nano/demo/install/joy/lib/libjoy.so
+[17.834s] -- Set runtime path of "/home/orin_nano/demo/install/joy/lib/libjoy.so" to ""
+[17.839s] -- Up-to-date: /home/orin_nano/demo/install/joy/lib/joy/joy_node
+[17.840s] -- Up-to-date: /home/orin_nano/demo/install/joy/lib/joy/joy_enumerate_devices
+[17.840s] -- Up-to-date: /home/orin_nano/demo/install/joy/include/joy
+[17.840s] -- Up-to-date: /home/orin_nano/demo/install/joy/include/joy/joy.hpp
+[17.841s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/config
+[17.842s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/config/joy-params.yaml
+[17.842s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/launch
+[17.843s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/launch/joy-composed-launch.py
+[17.845s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/launch/joy-launch.py
+[17.846s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[17.846s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[17.847s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/environment/ament_prefix_path.sh
+[17.847s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/environment/ament_prefix_path.dsv
+[17.848s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/environment/path.sh
+[17.849s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/environment/path.dsv
+[17.849s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/local_setup.bash
+[17.849s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/local_setup.sh
+[17.849s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/local_setup.zsh
+[17.849s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/local_setup.dsv
+[17.849s] -- Installing: /home/orin_nano/demo/install/joy/share/joy/package.dsv
+[17.849s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/packages/joy
+[17.849s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[17.850s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/cmake/joyConfig.cmake
+[17.850s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/cmake/joyConfig-version.cmake
+[17.850s] -- Up-to-date: /home/orin_nano/demo/install/joy/share/joy/package.xml

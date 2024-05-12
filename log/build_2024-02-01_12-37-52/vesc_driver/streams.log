@@ -1,0 +1,11 @@
+[0.249s] Invoking command in '/home/orin_nano/demo/build/vesc_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_driver -- -j6 -l6
+[0.362s] [ 10%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o[0m
+[0.367s] [ 30%] Built target vesc_driver_node
+[0.475s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_driver/src/vesc_interface.cpp:45:10:[m[K [01;31m[Kfatal error: [m[Kserial_driver/serial_driver.hpp: No such file or directory
+[0.475s]    45 | #include [01;31m[K"serial_driver/serial_driver.hpp"[m[K
+[0.475s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.475s] compilation terminated.
+[0.481s] make[2]: *** [CMakeFiles/vesc_driver.dir/build.make:76: CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o] Error 1
+[0.481s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_driver.dir/all] Error 2
+[0.482s] make: *** [Makefile:141: all] Error 2
+[0.805s] Invoked command in '/home/orin_nano/demo/build/vesc_driver' returned '2': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_driver -- -j6 -l6

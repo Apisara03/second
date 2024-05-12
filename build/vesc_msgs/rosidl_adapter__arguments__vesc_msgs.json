@@ -1,0 +1,9 @@
+{
+  "package_name": "vesc_msgs",
+  "non_idl_tuples": [
+    "/home/orin_nano/demo/src/vesc_foxy/vesc_msgs:msg/VescState.msg",
+    "/home/orin_nano/demo/src/vesc_foxy/vesc_msgs:msg/VescStateStamped.msg",
+    "/home/orin_nano/demo/src/vesc_foxy/vesc_msgs:msg/VescImu.msg",
+    "/home/orin_nano/demo/src/vesc_foxy/vesc_msgs:msg/VescImuStamped.msg"
+  ]
+}

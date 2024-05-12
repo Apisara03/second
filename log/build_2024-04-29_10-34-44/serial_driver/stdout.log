@@ -1,0 +1,7 @@
+[ 13%] Built target gtest
+[ 33%] Built target serial_driver
+[ 46%] Built target gtest_main
+[ 60%] Built target serial_bridge
+[ 73%] Built target test_serial_port
+[ 86%] Built target serial_driver_nodes
+[100%] Built target test_serial_driver

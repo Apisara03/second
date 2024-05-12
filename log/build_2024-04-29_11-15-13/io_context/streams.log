@@ -1,0 +1,39 @@
+[4.024s] Invoking command in '/home/orin_nano/demo/build/io_context': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/io_context -- -j6 -l6
+[4.146s] [ 22%] Built target gtest
+[4.146s] [ 44%] Built target gtest_main
+[4.158s] [ 77%] Built target io_context
+[4.214s] [100%] Built target test_io_context
+[7.245s] Invoked command in '/home/orin_nano/demo/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/io_context -- -j6 -l6
+[7.324s] Invoking command in '/home/orin_nano/demo/build/io_context': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/io_context
+[7.348s] -- Install configuration: ""
+[7.348s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include
+[7.349s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters
+[7.349s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters/converters.hpp
+[7.349s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters/example_interfaces.hpp
+[7.349s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters/udp_msgs.hpp
+[7.349s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters/std_msgs.hpp
+[7.349s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/io_context
+[7.350s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/io_context/io_context.hpp
+[7.350s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/io_context/common.hpp
+[7.350s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/library_path.sh
+[7.350s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/library_path.dsv
+[7.350s] -- Up-to-date: /home/orin_nano/demo/install/io_context/lib/libio_context.so
+[7.351s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/ament_index/resource_index/package_run_dependencies/io_context
+[7.351s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/ament_index/resource_index/parent_prefix_path/io_context
+[7.351s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/ament_prefix_path.sh
+[7.351s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/ament_prefix_path.dsv
+[7.351s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/path.sh
+[7.352s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/path.dsv
+[7.352s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/local_setup.bash
+[7.352s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/local_setup.sh
+[7.352s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/local_setup.zsh
+[7.352s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/local_setup.dsv
+[7.352s] -- Installing: /home/orin_nano/demo/install/io_context/share/io_context/package.dsv
+[7.353s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/ament_index/resource_index/packages/io_context
+[7.353s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.353s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.354s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/ament_cmake_export_libraries-extras.cmake
+[7.354s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/io_contextConfig.cmake
+[7.354s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/io_contextConfig-version.cmake
+[7.354s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/package.xml
+[7.360s] Invoked command in '/home/orin_nano/demo/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/io_context

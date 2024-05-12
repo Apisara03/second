@@ -1,0 +1,13 @@
+[0.477s] Invoking command in '/home/orin_nano/demo/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_ackermann -- -j6 -l6
+[0.597s] [ 14%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[0.600s] [ 71%] Built target ackermann_to_vesc_node
+[0.600s] [ 71%] Built target vesc_to_odom_node
+[0.618s] In file included from [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[0.618s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Kackermann_msgs/msg/ackermann_drive_stamped.hpp: No such file or directory
+[0.618s]    34 | #include [01;31m[K<ackermann_msgs/msg/ackermann_drive_stamped.hpp>[m[K
+[0.619s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.619s] compilation terminated.
+[0.621s] make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:63: CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o] Error 1
+[0.622s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+[0.622s] make: *** [Makefile:141: all] Error 2
+[0.627s] Invoked command in '/home/orin_nano/demo/build/vesc_ackermann' returned '2': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_ackermann -- -j6 -l6

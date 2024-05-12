@@ -1,0 +1,24 @@
+[6.136s] Invoking command in '/home/orin_nano/demo/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/asio_cmake_module -- -j6 -l6
+[6.241s] Invoked command in '/home/orin_nano/demo/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/asio_cmake_module -- -j6 -l6
+[6.371s] Invoking command in '/home/orin_nano/demo/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/asio_cmake_module
+[6.403s] -- Install configuration: ""
+[6.404s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/ament_index/resource_index/package_run_dependencies/asio_cmake_module
+[6.404s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/ament_index/resource_index/parent_prefix_path/asio_cmake_module
+[6.409s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.sh
+[6.410s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.dsv
+[6.411s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/environment/path.sh
+[6.411s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/environment/path.dsv
+[6.411s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/local_setup.bash
+[6.411s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/local_setup.sh
+[6.411s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/local_setup.zsh
+[6.412s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/local_setup.dsv
+[6.412s] -- Installing: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.dsv
+[6.412s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/ament_index/resource_index/packages/asio_cmake_module
+[6.412s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_module-extras.cmake
+[6.414s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig.cmake
+[6.415s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig-version.cmake
+[6.417s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/package.xml
+[6.417s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/cmake
+[6.418s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules
+[6.418s] -- Up-to-date: /home/orin_nano/demo/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules/FindASIO.cmake
+[6.419s] Invoked command in '/home/orin_nano/demo/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/asio_cmake_module

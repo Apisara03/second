@@ -1,0 +1,71 @@
+[0.495s] Invoking command in '/home/orin_nano/demo/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_ackermann
+[0.606s] -- The C compiler identification is GNU 9.4.0
+[0.709s] -- The CXX compiler identification is GNU 9.4.0
+[0.717s] -- Check for working C compiler: /usr/bin/cc
+[0.859s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.861s] -- Detecting C compiler ABI info
+[1.009s] -- Detecting C compiler ABI info - done
+[1.038s] -- Detecting C compile features
+[1.039s] -- Detecting C compile features - done
+[1.045s] -- Check for working CXX compiler: /usr/bin/c++
+[1.195s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.196s] -- Detecting CXX compiler ABI info
+[1.344s] -- Detecting CXX compiler ABI info - done
+[1.363s] -- Detecting CXX compile features
+[1.364s] -- Detecting CXX compile features - done
+[1.367s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.419s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.419s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.044s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.225s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.281s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.795s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.797s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.799s] -- Looking for pthread.h
+[2.942s] -- Looking for pthread.h - found
+[2.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.092s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.094s] -- Looking for pthread_create in pthreads
+[3.211s] -- Looking for pthread_create in pthreads - not found
+[3.211s] -- Looking for pthread_create in pthread
+[3.351s] -- Looking for pthread_create in pthread - found
+[3.353s] -- Found Threads: TRUE  
+[4.381s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.418s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.420s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.420s] -- Configured cppcheck include dirs: /home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/include
+[4.420s] -- Configured cppcheck exclude dirs and/or files: 
+[4.423s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.423s] -- Configured cpplint exclude dirs and/or files: 
+[4.424s] -- Added test 'lint_cmake' to check CMake code style
+[4.426s] -- Added test 'uncrustify' to check C / C++ code style
+[4.426s] -- Configured uncrustify additional arguments: 
+[4.427s] -- Added test 'xmllint' to check XML markup files
+[4.440s] -- Configuring done
+[4.479s] -- Generating done
+[4.483s] -- Build files have been written to: /home/orin_nano/demo/build/vesc_ackermann
+[4.509s] Invoked command in '/home/orin_nano/demo/build/vesc_ackermann' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_ackermann -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_ackermann
+[4.516s] Invoking command in '/home/orin_nano/demo/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_ackermann -- -j6 -l6
+[4.611s] [35m[1mScanning dependencies of target vesc_to_odom_node[0m
+[4.611s] [35m[1mScanning dependencies of target ackermann_to_vesc_node[0m
+[4.641s] [35m[1mScanning dependencies of target vesc_ackermann[0m
+[4.712s] [ 14%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[4.719s] [ 28%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[4.796s] [ 42%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[4.802s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[4.867s] In file included from [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[4.868s] [01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Kackermann_msgs/msg/ackermann_drive_stamped.hpp: No such file or directory
+[4.868s]    34 | #include [01;31m[K<ackermann_msgs/msg/ackermann_drive_stamped.hpp>[m[K
+[4.868s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.868s] compilation terminated.
+[4.871s] make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:63: CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o] Error 1
+[4.871s] make[2]: *** Waiting for unfinished jobs....
+[9.918s] [ 71%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[10.182s] [ 71%] Built target vesc_to_odom_node
+[10.230s] [ 85%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[10.482s] [ 85%] Built target ackermann_to_vesc_node
+[18.584s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+[18.584s] make: *** [Makefile:141: all] Error 2
+[18.589s] Invoked command in '/home/orin_nano/demo/build/vesc_ackermann' returned '2': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_ackermann -- -j6 -l6

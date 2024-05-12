@@ -1,0 +1,10 @@
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_driver/src/vesc_driver.cpp:[m[K In member function ‘[01m[Kvoid vesc_driver::VescDriver::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_driver/src/vesc_driver.cpp:372:50:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kdouble vesc_driver::map(double, double, double, double, double)[m[K’
+  372 |       double motor_speed = map(linear_vel, 1000.0[01;31m[K)[m[K;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/orin_nano/demo/src/vesc_foxy/vesc_driver/src/vesc_driver.cpp:358:8:[m[K [01;36m[Knote: [m[Kdeclared here
+  358 | double [01;36m[Kmap[m[K(double value, double in_min, double in_max, double out_min, double out_max) {
+      |        [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/vesc_driver.dir/build.make:63: CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

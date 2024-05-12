@@ -1,0 +1,24 @@
+[3.032s] Invoking command in '/home/orin_nano/demo/build/combine_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/combine_pkg -- -j6 -l6
+[3.136s] Invoked command in '/home/orin_nano/demo/build/combine_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/combine_pkg -- -j6 -l6
+[3.261s] Invoking command in '/home/orin_nano/demo/build/combine_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/combine_pkg
+[3.286s] -- Install configuration: ""
+[3.287s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/launch
+[3.287s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/launch/multi_node.launch.py
+[3.287s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/launch/.ipynb_checkpoints
+[3.287s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/launch/.ipynb_checkpoints/multi_node.launch-checkpoint.py
+[3.287s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/ament_index/resource_index/package_run_dependencies/combine_pkg
+[3.287s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/ament_index/resource_index/parent_prefix_path/combine_pkg
+[3.287s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/environment/ament_prefix_path.sh
+[3.287s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/environment/ament_prefix_path.dsv
+[3.288s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/environment/path.sh
+[3.288s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/environment/path.dsv
+[3.288s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/local_setup.bash
+[3.291s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/local_setup.sh
+[3.291s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/local_setup.zsh
+[3.291s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/local_setup.dsv
+[3.296s] -- Installing: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/package.dsv
+[3.296s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/ament_index/resource_index/packages/combine_pkg
+[3.296s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/cmake/combine_pkgConfig.cmake
+[3.297s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/cmake/combine_pkgConfig-version.cmake
+[3.297s] -- Up-to-date: /home/orin_nano/demo/install/combine_pkg/share/combine_pkg/package.xml
+[4.102s] Invoked command in '/home/orin_nano/demo/build/combine_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/combine_pkg

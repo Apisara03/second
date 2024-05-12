@@ -1,0 +1,112 @@
+[2.835s] Invoking command in '/home/orin_nano/demo/build/vesc_driver': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_driver
+[2.958s] -- The C compiler identification is GNU 9.4.0
+[3.066s] -- The CXX compiler identification is GNU 9.4.0
+[3.076s] -- Check for working C compiler: /usr/bin/cc
+[3.228s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.229s] -- Detecting C compiler ABI info
+[3.379s] -- Detecting C compiler ABI info - done
+[3.408s] -- Detecting C compile features
+[3.409s] -- Detecting C compile features - done
+[3.415s] -- Check for working CXX compiler: /usr/bin/c++
+[3.580s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.581s] -- Detecting CXX compiler ABI info
+[3.748s] -- Detecting CXX compiler ABI info - done
+[3.783s] -- Detecting CXX compile features
+[3.783s] -- Detecting CXX compile features - done
+[3.790s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[3.848s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.848s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.585s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.779s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.840s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.126s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.131s] -- Looking for pthread.h
+[5.289s] -- Looking for pthread.h - found
+[5.289s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.450s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.450s] -- Looking for pthread_create in pthreads
+[5.584s] -- Looking for pthread_create in pthreads - not found
+[5.584s] -- Looking for pthread_create in pthread
+[5.736s] -- Looking for pthread_create in pthread - found
+[5.738s] -- Found Threads: TRUE  
+[7.230s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.284s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.289s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.289s] -- Configured cppcheck include dirs: /home/orin_nano/demo/src/vesc_foxy/vesc_driver/include
+[7.289s] -- Configured cppcheck exclude dirs and/or files: 
+[7.293s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.293s] -- Configured cpplint exclude dirs and/or files: 
+[7.295s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.297s] -- Added test 'lint_cmake' to check CMake code style
+[7.299s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.302s] -- Added test 'uncrustify' to check C / C++ code style
+[7.303s] -- Configured uncrustify additional arguments: 
+[7.304s] -- Added test 'xmllint' to check XML markup files
+[7.317s] -- Configuring done
+[7.412s] -- Generating done
+[7.416s] -- Build files have been written to: /home/orin_nano/demo/build/vesc_driver
+[7.445s] Invoked command in '/home/orin_nano/demo/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake /home/orin_nano/demo/src/vesc_foxy/vesc_driver -DCMAKE_INSTALL_PREFIX=/home/orin_nano/demo/install/vesc_driver
+[7.451s] Invoking command in '/home/orin_nano/demo/build/vesc_driver': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_driver -- -j6 -l6
+[7.551s] [35m[1mScanning dependencies of target vesc_driver[0m
+[7.552s] [35m[1mScanning dependencies of target vesc_driver_node[0m
+[7.623s] [ 10%] [32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o[0m
+[7.638s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o[0m
+[7.641s] [ 40%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o[0m
+[7.642s] [ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o[0m
+[7.656s] [ 50%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o[0m
+[12.911s] [ 60%] [32m[1mLinking CXX executable vesc_driver_node[0m
+[13.172s] [ 60%] Built target vesc_driver_node
+[25.513s] [ 70%] [32m[1mLinking CXX shared library libvesc_driver.so[0m
+[26.625s] [ 70%] Built target vesc_driver
+[26.649s] [35m[1mScanning dependencies of target vesc_device_namer[0m
+[26.676s] [ 90%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o[0m
+[26.676s] [ 90%] [32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o[0m
+[27.882s] [100%] [32m[1mLinking CXX executable vesc_device_namer[0m
+[28.434s] [100%] Built target vesc_device_namer
+[28.460s] Invoked command in '/home/orin_nano/demo/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_driver -- -j6 -l6
+[28.551s] Invoking command in '/home/orin_nano/demo/build/vesc_driver': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_driver
+[28.573s] -- Install configuration: ""
+[28.573s] -- Installing: /home/orin_nano/demo/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+[28.574s] -- Set runtime path of "/home/orin_nano/demo/install/vesc_driver/lib/vesc_driver/vesc_driver_node" to ""
+[28.575s] -- Installing: /home/orin_nano/demo/install/vesc_driver/include
+[28.575s] -- Installing: /home/orin_nano/demo/install/vesc_driver/include/vesc_driver
+[28.575s] -- Installing: /home/orin_nano/demo/install/vesc_driver/include/vesc_driver/crc.hpp
+[28.575s] -- Installing: /home/orin_nano/demo/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+[28.575s] -- Installing: /home/orin_nano/demo/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+[28.575s] -- Installing: /home/orin_nano/demo/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+[28.576s] -- Installing: /home/orin_nano/demo/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+[28.576s] -- Installing: /home/orin_nano/demo/install/vesc_driver/include/vesc_driver/datatypes.hpp
+[28.576s] -- Installing: /home/orin_nano/demo/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+[28.576s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+[28.577s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+[28.577s] -- Installing: /home/orin_nano/demo/install/vesc_driver/lib/libvesc_driver.so
+[28.590s] -- Set runtime path of "/home/orin_nano/demo/install/vesc_driver/lib/libvesc_driver.so" to ""
+[28.590s] -- Installing: /home/orin_nano/demo/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+[28.590s] -- Set runtime path of "/home/orin_nano/demo/install/vesc_driver/lib/vesc_driver/vesc_device_namer" to ""
+[28.591s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/launch
+[28.591s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+[28.592s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/params
+[28.592s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+[28.593s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+[28.593s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+[28.593s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+[28.594s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+[28.594s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/environment/path.sh
+[28.594s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/environment/path.dsv
+[28.594s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/local_setup.bash
+[28.595s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/local_setup.sh
+[28.595s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/local_setup.zsh
+[28.595s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/local_setup.dsv
+[28.596s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.dsv
+[28.596s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+[28.596s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+[28.597s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.597s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.597s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[28.597s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+[28.598s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+[28.598s] -- Installing: /home/orin_nano/demo/install/vesc_driver/share/vesc_driver/package.xml
+[28.603s] Invoked command in '/home/orin_nano/demo/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/serial_driver:/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/vesc_msgs:/home/orin_nano/demo/install/vesc:/home/orin_nano/demo/install/vesc_driver:/home/orin_nano/demo/install/vesc_ackermann:/home/orin_nano/demo/install/udp_driver:/home/orin_nano/demo/install/combine_pkg:/home/orin_nano/demo/install/asio_cmake_module:/home/orin_nano/joyy/install/vesc:/home/orin_nano/joyy/install/vesc_ackermann:/home/orin_nano/joyy/install/vesc_msgs:/home/orin_nano/joyy/install/joy:/home/orin_nano/install/joy:/home/orin_nano/demo/install/joy:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/serial_driver/lib:/home/orin_nano/demo/install/io_context/lib:/home/orin_nano/demo/install/vesc_msgs/lib:/home/orin_nano/demo/install/vesc_driver/lib:/home/orin_nano/demo/install/vesc_ackermann/lib:/home/orin_nano/demo/install/udp_driver/lib:/home/orin_nano/joyy/install/vesc_ackermann/lib:/home/orin_nano/joyy/install/vesc_msgs/lib:/home/orin_nano/joyy/install/joy/lib:/home/orin_nano/install/joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_driver

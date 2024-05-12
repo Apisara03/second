@@ -1,0 +1,12 @@
+/home/orin_nano/demo/build/joy/CMakeFiles/install/local.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/install.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/list_install_components.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/rebuild_cache.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/edit_cache.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/test.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/joy_enumerate_devices.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/joy_node.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/joy.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/install/strip.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/joy_uninstall.dir
+/home/orin_nano/demo/build/joy/CMakeFiles/uninstall.dir

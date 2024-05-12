@@ -1,0 +1,49 @@
+[0.705s] Invoking command in '/home/orin_nano/demo/build/udp_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/udp_driver -- -j6 -l6
+[0.832s] [  8%] Built target gtest
+[0.867s] [ 16%] Built target gtest_main
+[0.881s] [ 29%] Built target udp_driver
+[0.890s] [ 37%] Built target udp_receiver_node_exe
+[0.905s] [ 45%] Built target udp_sender_node_exe
+[0.957s] [ 58%] Built target udp_driver_nodes
+[1.013s] [ 75%] Built target test_udp_data
+[1.013s] [ 75%] Built target test_udp_socket
+[1.023s] [ 83%] Built target test_udp_driver
+[1.030s] [ 91%] Built target udp_bridge_node_exe
+[1.038s] [100%] Built target test_udp_driver_nodes
+[1.259s] Invoked command in '/home/orin_nano/demo/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --build /home/orin_nano/demo/build/udp_driver -- -j6 -l6
+[1.814s] Invoking command in '/home/orin_nano/demo/build/udp_driver': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/udp_driver
+[1.835s] -- Install configuration: ""
+[1.836s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/lib/udp_driver/udp_receiver_node_exe
+[1.837s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/lib/udp_driver/udp_sender_node_exe
+[1.837s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/include
+[1.837s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/include/udp_driver
+[1.837s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/include/udp_driver/udp_receiver_node.hpp
+[1.838s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/include/udp_driver/udp_sender_node.hpp
+[1.838s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/include/udp_driver/udp_socket.hpp
+[1.838s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/include/udp_driver/visibility_control.hpp
+[1.838s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/include/udp_driver/udp_driver.hpp
+[1.838s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/library_path.sh
+[1.838s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/library_path.dsv
+[1.838s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/lib/libudp_driver.so
+[1.839s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/lib/libudp_driver_nodes.so
+[1.840s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/lib/udp_driver/udp_bridge_node_exe
+[1.841s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/ament_index/resource_index/package_run_dependencies/udp_driver
+[1.841s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/ament_index/resource_index/parent_prefix_path/udp_driver
+[1.841s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/ament_prefix_path.sh
+[1.842s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/ament_prefix_path.dsv
+[1.842s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/path.sh
+[1.842s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/environment/path.dsv
+[1.842s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/local_setup.bash
+[1.843s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/local_setup.sh
+[1.843s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/local_setup.zsh
+[1.843s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/local_setup.dsv
+[1.844s] -- Installing: /home/orin_nano/demo/install/udp_driver/share/udp_driver/package.dsv
+[1.844s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/ament_index/resource_index/packages/udp_driver
+[1.845s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/ament_index/resource_index/rclcpp_components/udp_driver
+[1.846s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.847s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.847s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.848s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/udp_driverConfig.cmake
+[1.849s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/cmake/udp_driverConfig-version.cmake
+[1.850s] -- Up-to-date: /home/orin_nano/demo/install/udp_driver/share/udp_driver/package.xml
+[1.855s] Invoked command in '/home/orin_nano/demo/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/io_context:/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin_nano/demo/install/io_context/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 /usr/bin/cmake --install /home/orin_nano/demo/build/udp_driver

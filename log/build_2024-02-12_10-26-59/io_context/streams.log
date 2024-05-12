@@ -1,0 +1,39 @@
+[1.071s] Invoking command in '/home/orin_nano/demo/build/io_context': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/io_context -- -j6 -l6
+[1.177s] [ 44%] Built target gtest_main
+[1.177s] [ 44%] Built target gtest
+[1.188s] [ 77%] Built target io_context
+[1.239s] [100%] Built target test_io_context
+[1.901s] Invoked command in '/home/orin_nano/demo/build/io_context' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/io_context -- -j6 -l6
+[1.959s] Invoking command in '/home/orin_nano/demo/build/io_context': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/io_context
+[1.976s] -- Install configuration: ""
+[1.976s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include
+[1.976s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters
+[1.976s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters/converters.hpp
+[1.977s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters/example_interfaces.hpp
+[1.977s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters/udp_msgs.hpp
+[1.977s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/msg_converters/std_msgs.hpp
+[1.977s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/io_context
+[1.977s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/io_context/io_context.hpp
+[1.977s] -- Up-to-date: /home/orin_nano/demo/install/io_context/include/io_context/common.hpp
+[1.978s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/library_path.sh
+[1.978s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/library_path.dsv
+[1.978s] -- Up-to-date: /home/orin_nano/demo/install/io_context/lib/libio_context.so
+[1.978s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/ament_index/resource_index/package_run_dependencies/io_context
+[1.978s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/ament_index/resource_index/parent_prefix_path/io_context
+[1.979s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/ament_prefix_path.sh
+[1.979s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/ament_prefix_path.dsv
+[1.979s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/path.sh
+[1.979s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/environment/path.dsv
+[1.979s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/local_setup.bash
+[1.979s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/local_setup.sh
+[1.980s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/local_setup.zsh
+[1.980s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/local_setup.dsv
+[1.980s] -- Installing: /home/orin_nano/demo/install/io_context/share/io_context/package.dsv
+[1.980s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/ament_index/resource_index/packages/io_context
+[1.980s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.980s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.980s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/ament_cmake_export_libraries-extras.cmake
+[1.980s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/io_contextConfig.cmake
+[1.981s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/cmake/io_contextConfig-version.cmake
+[1.981s] -- Up-to-date: /home/orin_nano/demo/install/io_context/share/io_context/package.xml
+[1.984s] Invoked command in '/home/orin_nano/demo/build/io_context' returned '0': AMENT_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin_nano/demo/install/asio_cmake_module:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/io_context

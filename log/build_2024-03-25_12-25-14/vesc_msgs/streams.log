@@ -1,0 +1,175 @@
+[4.527s] Invoking command in '/home/orin_nano/demo/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_msgs -- -j6 -l6
+[4.665s] [  1%] Built target vesc_msgs__cpp
+[4.675s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[4.755s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[4.762s] [ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[4.775s] [ 45%] Built target vesc_msgs__rosidl_typesupport_c
+[4.777s] [ 56%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[4.778s] [ 67%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[4.842s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[4.892s] [ 78%] Built target vesc_msgs
+[4.944s] [ 80%] Built target vesc_msgs__py
+[5.006s] [ 89%] Built target vesc_msgs__python
+[5.068s] [100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[5.070s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[5.070s] [100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.338s] Invoked command in '/home/orin_nano/demo/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/orin_nano/demo/build/vesc_msgs -- -j6 -l6
+[9.871s] Invoking command in '/home/orin_nano/demo/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_msgs
+[9.902s] -- Install configuration: ""
+[9.902s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs
+[9.902s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs
+[9.903s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg
+[9.903s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.h
+[9.903s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail
+[9.903s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.h
+[9.904s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.c
+[9.904s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c
+[9.904s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.c
+[9.904s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h
+[9.904s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.h
+[9.904s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.h
+[9.905s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.h
+[9.905s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h
+[9.905s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.h
+[9.905s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.h
+[9.905s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h
+[9.906s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h
+[9.906s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.h
+[9.906s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.h
+[9.906s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.c
+[9.906s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.h
+[9.906s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.907s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.h
+[9.907s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.h
+[9.907s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh
+[9.907s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv
+[9.907s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+[9.908s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs
+[9.908s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg
+[9.908s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail
+[9.909s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h
+[9.910s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h
+[9.910s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h
+[9.910s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h
+[9.910s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.910s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+[9.913s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs
+[9.914s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg
+[9.914s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail
+[9.914s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/dds_fastrtps
+[9.914s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp
+[9.915s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[9.915s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[9.915s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.916s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.917s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.918s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs
+[9.918s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg
+[9.919s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail
+[9.919s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h
+[9.921s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h
+[9.922s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h
+[9.923s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.c
+[9.923s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h
+[9.924s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c
+[9.924s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c
+[9.925s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.c
+[9.926s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.926s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+[9.927s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+[9.927s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs
+[9.928s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg
+[9.928s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail
+[9.929s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp
+[9.929s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__traits.hpp
+[9.930s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__builder.hpp
+[9.930s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp
+[9.931s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp
+[9.931s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.hpp
+[9.932s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.hpp
+[9.932s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__builder.hpp
+[9.932s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp
+[9.933s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp
+[9.933s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp
+[9.933s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp
+[9.934s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.hpp
+[9.934s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__traits.hpp
+[9.935s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp
+[9.935s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.hpp
+[9.936s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.hpp
+[9.937s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.937s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.hpp
+[9.938s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.hpp
+[9.938s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.hpp
+[9.939s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs
+[9.939s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg
+[9.940s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail
+[9.940s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.cpp
+[9.942s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp
+[9.942s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp
+[9.943s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.cpp
+[9.943s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp
+[9.944s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp
+[9.944s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp
+[9.945s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[9.945s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+[9.946s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+[9.946s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh
+[9.947s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv
+[9.947s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/__init__.py
+[9.979s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg
+[9.980s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py
+[9.980s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu.py
+[9.981s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c
+[9.982s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/__init__.py
+[9.983s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_s.c
+[9.983s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped.py
+[9.984s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state.py
+[9.985s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped_s.c
+[9.985s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_s.c
+[9.986s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[9.987s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[9.988s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[9.988s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/lib/libvesc_msgs__python.so
+[9.989s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl
+[9.990s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl
+[9.991s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl
+[9.991s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl
+[9.992s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg
+[9.993s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg
+[9.994s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg
+[9.995s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg
+[9.996s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs
+[9.997s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs
+[9.997s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh
+[9.999s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv
+[10.000s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/environment/path.sh
+[10.001s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/environment/path.dsv
+[10.002s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/local_setup.bash
+[10.002s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/local_setup.sh
+[10.002s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/local_setup.zsh
+[10.003s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/local_setup.dsv
+[10.004s] -- Installing: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.dsv
+[10.005s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs
+[10.005s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport.cmake
+[10.006s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.006s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.007s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.007s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake
+[10.008s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.008s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cppExport.cmake
+[10.009s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.010s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.010s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake
+[10.011s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.011s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake
+[10.012s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.012s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.013s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.014s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.015s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.016s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.018s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake
+[10.020s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake
+[10.022s] -- Up-to-date: /home/orin_nano/demo/install/vesc_msgs/share/vesc_msgs/package.xml
+[10.968s] Invoked command in '/home/orin_nano/demo/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/orin_nano/demo/build/vesc_msgs
